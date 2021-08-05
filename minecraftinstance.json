@@ -1594,14 +1594,14 @@
       "addonID": 454372,
       "gameInstanceID": "afa3613d-f755-43ad-b67c-b0e86c82f895",
       "installedFile": {
-        "id": 3407572,
-        "displayName": "supermartijn642corelib-1.0.11-mc1.17",
-        "fileName": "supermartijn642corelib-1.0.11-mc1.17.jar",
-        "fileDate": "2021-07-31T16:06:38.67Z",
-        "fileLength": 201687,
+        "id": 3413424,
+        "displayName": "supermartijn642corelib-1.0.12-mc1.17",
+        "fileName": "supermartijn642corelib-1.0.12-mc1.17.jar",
+        "fileDate": "2021-08-04T23:29:13.517Z",
+        "fileLength": 202919,
         "releaseType": 2,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3407/572/supermartijn642corelib-1.0.11-mc1.17.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3413/424/supermartijn642corelib-1.0.12-mc1.17.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -1609,13 +1609,13 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1374342622,
+            "fingerprint": 450634521,
             "type": 0,
             "invalidFingerprint": false
           },
           {
             "foldername": "com",
-            "fingerprint": 2382203229,
+            "fingerprint": 19107002,
             "type": 0,
             "invalidFingerprint": false
           },
@@ -1638,7 +1638,7 @@
             "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 3106580618,
+        "packageFingerprint": 3783401371,
         "gameVersion": [
           "1.17.1",
           "1.17",
@@ -1653,12 +1653,12 @@
         "gameVersionDateReleased": "2019-08-01T00:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "supermartijn642corelib-1.0.11-mc1.17.jar"
+        "FileNameOnDisk": "supermartijn642corelib-1.0.12-mc1.17.jar"
       },
       "dateInstalled": "2021-07-29T16:46:48.0914377Z",
-      "dateUpdated": "2021-08-05T00:19:22.7661636Z",
-      "dateLastUpdateAttempted": "2021-08-05T00:19:22.7661636Z",
-      "status": 3,
+      "dateUpdated": "2021-08-05T00:46:10.8134514Z",
+      "dateLastUpdateAttempted": "2021-08-05T00:46:10.8134514Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
