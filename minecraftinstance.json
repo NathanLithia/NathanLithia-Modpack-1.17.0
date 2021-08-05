@@ -5303,28 +5303,28 @@
       "addonID": 309927,
       "gameInstanceID": "afa3613d-f755-43ad-b67c-b0e86c82f895",
       "installedFile": {
-        "id": 3403758,
-        "displayName": "curios-forge-1.17.1-5.0.0.0.jar",
-        "fileName": "curios-forge-1.17.1-5.0.0.0.jar",
-        "fileDate": "2021-07-28T03:25:16.04Z",
-        "fileLength": 215086,
+        "id": 3412602,
+        "displayName": "curios-forge-1.17.1-5.0.0.1.jar",
+        "fileName": "curios-forge-1.17.1-5.0.0.1.jar",
+        "fileDate": "2021-08-04T07:56:23.047Z",
+        "fileLength": 215198,
         "releaseType": 2,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3403/758/curios-forge-1.17.1-5.0.0.0.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3412/602/curios-forge-1.17.1-5.0.0.1.jar",
         "isAlternate": false,
-        "alternateFileId": 3403759,
+        "alternateFileId": 3412603,
         "dependencies": [],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2870392462,
+            "fingerprint": 478453207,
             "type": 0,
             "invalidFingerprint": false
           },
           {
             "foldername": "top",
-            "fingerprint": 2724570999,
+            "fingerprint": 445086779,
             "type": 0,
             "invalidFingerprint": false
           },
@@ -5336,7 +5336,7 @@
           },
           {
             "foldername": "CHANGELOG.md",
-            "fingerprint": 1270964629,
+            "fingerprint": 3556457206,
             "type": 0,
             "invalidFingerprint": false
           },
@@ -5371,7 +5371,7 @@
             "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 233860414,
+        "packageFingerprint": 3469494193,
         "gameVersion": [
           "1.17.1",
           "Forge"
@@ -5385,12 +5385,12 @@
         "gameVersionDateReleased": "2019-08-01T00:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "curios-forge-1.17.1-5.0.0.0.jar"
+        "FileNameOnDisk": "curios-forge-1.17.1-5.0.0.1.jar"
       },
       "dateInstalled": "2021-07-29T16:44:14.6122623Z",
-      "dateUpdated": "2021-07-29T16:44:14.6152645Z",
-      "dateLastUpdateAttempted": "2021-07-29T16:44:14.6152645Z",
-      "status": 3,
+      "dateUpdated": "2021-08-05T00:45:51.6901755Z",
+      "dateLastUpdateAttempted": "2021-08-05T00:45:51.6901755Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
