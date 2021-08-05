@@ -2538,14 +2538,14 @@
       "addonID": 444729,
       "gameInstanceID": "afa3613d-f755-43ad-b67c-b0e86c82f895",
       "installedFile": {
-        "id": 3403130,
-        "displayName": "recast_1.17.1-1.4.jar",
-        "fileName": "recast_1.17.1-1.4.jar",
-        "fileDate": "2021-07-27T17:00:10.69Z",
+        "id": 3414064,
+        "displayName": "recast_1.17.1-1.5.jar",
+        "fileName": "recast_1.17.1-1.5.jar",
+        "fileDate": "2021-08-05T13:57:34.1Z",
         "fileLength": 5897,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3403/130/recast_1.17.1-1.4.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3414/64/recast_1.17.1-1.5.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
@@ -2560,13 +2560,13 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3090968938,
+            "fingerprint": 3793274415,
             "type": 0,
             "invalidFingerprint": false
           },
           {
             "foldername": "com",
-            "fingerprint": 401286169,
+            "fingerprint": 1695623420,
             "type": 0,
             "invalidFingerprint": false
           },
@@ -2577,7 +2577,7 @@
             "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 2761406564,
+        "packageFingerprint": 1396488537,
         "gameVersion": [
           "1.17.1",
           "Forge"
@@ -2591,12 +2591,12 @@
         "gameVersionDateReleased": "2019-08-01T00:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "recast_1.17.1-1.4.jar"
+        "FileNameOnDisk": "recast_1.17.1-1.5.jar"
       },
       "dateInstalled": "2021-08-01T17:39:39.423233Z",
-      "dateUpdated": "2021-08-01T17:39:39.4252354Z",
-      "dateLastUpdateAttempted": "2021-08-01T17:39:39.4252354Z",
-      "status": 3,
+      "dateUpdated": "2021-08-05T19:29:44.7970327Z",
+      "dateLastUpdateAttempted": "2021-08-05T19:29:44.7970327Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
