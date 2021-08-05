@@ -1,0 +1,19 @@
+type = menu
+
+customization-meta {
+  identifier = net.optifine.gui.GuiPerformanceSettingsOF
+  renderorder = foreground
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 18
+  action = addtext
+  actionid = 1707cf48-54ca-427c-ba33-f77be9f3c1f21621542662146
+  y = 32
+  scale = 1.0
+  alignment = left
+  value = Render Regions can cause issues, same with fast render -Nathan
+}
+

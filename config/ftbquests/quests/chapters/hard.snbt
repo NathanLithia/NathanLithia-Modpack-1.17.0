@@ -1,0 +1,16 @@
+{
+	id: "04440C88DD233F59"
+	group: "4EAC66EFAA1BE78B"
+	order_index: 2
+	filename: "hard"
+	title: "Hard"
+	icon: {
+		id: "minecraft:diamond_sword"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	quests: [ ]
+}

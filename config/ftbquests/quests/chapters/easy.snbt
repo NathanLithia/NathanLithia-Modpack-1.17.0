@@ -1,0 +1,1291 @@
+{
+	id: "66CB90B648C65192"
+	group: ""
+	order_index: 0
+	filename: "easy"
+	title: "Mastery Tree"
+	icon: "minecraft:nether_star"
+	default_quest_shape: ""
+	quests: [
+		{
+			x: 4.5d
+			y: -7.5d
+			subtitle: "Visit the Nether by crafting an Obsidian Nether Portal."
+			id: "295FE4A82AD64149"
+			tasks: [{
+				id: "3E0E2C08EB766902"
+				type: "dimension"
+				icon: "minecraft:netherrack"
+				dimension: "minecraft:the_nether"
+			}]
+		}
+		{
+			title: "Monster Hunter"
+			x: 7.0d
+			y: 2.5d
+			id: "1E377F50FE1F2D7D"
+			tasks: [
+				{
+					id: "77615548FDC98EF4"
+					type: "kill"
+					icon: "minecraft:skeleton_skull"
+					entity: "minecraft:skeleton"
+					value: 100L
+				}
+				{
+					id: "6652E47E5FAFBCBD"
+					type: "kill"
+					icon: "minecraft:zombie_head"
+					entity: "minecraft:zombie"
+					value: 100L
+				}
+				{
+					id: "7CC619D3CCA9C67A"
+					type: "kill"
+					icon: "minecraft:creeper_head"
+					entity: "minecraft:creeper"
+					value: 100L
+				}
+			]
+			rewards: [
+				{
+					id: "0AF0E4C6593E235D"
+					type: "item"
+					item: "bhc:red_heart"
+					count: 16
+				}
+				{
+					id: "43F450B1C89A6712"
+					type: "item"
+					item: "firstaid:bandage"
+					count: 8
+				}
+				{
+					id: "1E98F3DEAD47D5C4"
+					type: "item"
+					item: "firstaid:plaster"
+					count: 16
+				}
+				{
+					id: "231DA527F40A82C1"
+					type: "item"
+					item: "firstaid:morphine"
+					count: 8
+				}
+			]
+		}
+		{
+			title: "Enter Into Existance."
+			x: 5.5d
+			y: -8.5d
+			subtitle: "Spawn into the realm for the first time."
+			description: [""]
+			id: "33D1D4F01772D3C1"
+			tasks: [{
+				id: "6165A2740DB3155D"
+				type: "dimension"
+				icon: "minecraft:grass_block"
+				dimension: "minecraft:overworld"
+			}]
+			rewards: [
+				{
+					id: "024E9680C6351582"
+					type: "item"
+					team_reward: false
+					auto: "enabled"
+					item: "akashictome:tome"
+					only_one: true
+				}
+				{
+					id: "68DB2B1190B375AB"
+					type: "command"
+					icon: "minecraft:command_block"
+					team_reward: false
+					auto: "enabled"
+					command: "/say @p has joined for the first time!"
+					player_command: false
+				}
+				{
+					id: "15AC0D81B79EF1E9"
+					type: "item"
+					team_reward: false
+					auto: "enabled"
+					item: {
+						id: "notreepunching:macuahuitl"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					only_one: true
+				}
+			]
+		}
+		{
+			title: "Fishing Mastery"
+			icon: "upgrade_aquatic:lionfish"
+			x: 7.0d
+			y: -4.5d
+			shape: "rsquare"
+			id: "314E7F2BADC6B033"
+			tasks: [
+				{
+					id: "7BD9B3EB00258444"
+					type: "item"
+					item: "minecraft:tropical_fish"
+				}
+				{
+					id: "3942C646F477A2E5"
+					type: "item"
+					item: "minecraft:pufferfish"
+				}
+				{
+					id: "6192F356640E3EE2"
+					type: "item"
+					item: "minecraft:salmon"
+				}
+				{
+					id: "60287800ADF40C88"
+					type: "item"
+					item: "upgrade_aquatic:lionfish"
+				}
+				{
+					id: "49370071370C69E7"
+					type: "item"
+					item: "bettas:betta_fish"
+				}
+				{
+					id: "6CD516150BDDC27E"
+					type: "item"
+					item: "oddwatermobs:raw_anglerfish"
+				}
+				{
+					id: "69B7D7B36B16E3AD"
+					type: "item"
+					item: "alexsmobs:blobfish"
+				}
+				{
+					id: "7706591F84034BE8"
+					type: "item"
+					item: "betterendforge:end_fish_raw"
+				}
+				{
+					id: "6434F5CEBFD72B2C"
+					type: "item"
+					item: "minecraft:cod"
+				}
+				{
+					id: "034191AABD65AEF2"
+					type: "item"
+					item: "upgrade_aquatic:pike"
+				}
+				{
+					id: "61AC6C4636833177"
+					type: "item"
+					item: "oddwatermobs:raw_ghost_shark"
+				}
+				{
+					id: "37CF9367F6146C2A"
+					type: "item"
+					item: "oddwatermobs:raw_mudskipper"
+				}
+				{
+					id: "3DDB46CFF2A3CC2B"
+					type: "item"
+					item: "oddwatermobs:raw_coelacanth"
+				}
+				{
+					id: "5B8144EAB70A55BD"
+					type: "item"
+					item: "oddwatermobs:raw_isopod"
+				}
+				{
+					id: "69D45FEBE6DEF42C"
+					type: "item"
+					item: "betteranimalsplus:eel_meat_raw"
+				}
+				{
+					id: "385FCD9ECC2AA194"
+					type: "item"
+					item: "betteranimalsplus:calamari_raw"
+				}
+				{
+					id: "6C0324A3F5E65844"
+					type: "item"
+					item: "upgrade_aquatic:perch"
+				}
+				{
+					id: "7C1BFC2C80D23E0A"
+					type: "item"
+					item: "betteranimalsplus:crab_meat_raw"
+				}
+				{
+					id: "1884374C4FA2E5A1"
+					type: "item"
+					item: "alexsmobs:lobster_tail"
+				}
+				{
+					id: "3AF9A279A26A52A3"
+					type: "item"
+					item: "quark:crab_leg"
+				}
+				{
+					id: "7E4667DDFD0A2D10"
+					type: "item"
+					item: "oddwatermobs:crab_leg"
+				}
+			]
+			rewards: [
+				{
+					id: "703FCB9353B08359"
+					type: "item"
+					item: {
+						id: "rats:fisherman_hat"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "77DB55987D5B1B5E"
+					type: "item"
+					item: {
+						id: "scuba_gear:scuba_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Hunting Mastery"
+			icon: "betteranimalsplus:deerhead_2"
+			x: 7.5d
+			y: -3.5d
+			shape: "rsquare"
+			id: "7F65ECB400D05B86"
+			tasks: [
+				{
+					id: "6CD2D435B608F4FC"
+					type: "item"
+					item: "minecraft:beef"
+				}
+				{
+					id: "09C09D350E65E1C8"
+					type: "item"
+					item: "minecraft:porkchop"
+				}
+				{
+					id: "2E1EE219A50185A0"
+					type: "item"
+					item: "minecraft:chicken"
+				}
+				{
+					id: "5C15D9F18E8AFE46"
+					type: "item"
+					item: "minecraft:rabbit"
+				}
+				{
+					id: "27942000649D1E34"
+					type: "item"
+					item: "minecraft:mutton"
+				}
+				{
+					id: "4318FF1EF3EE5006"
+					type: "item"
+					item: "alexsmobs:moose_ribs"
+				}
+				{
+					id: "682F841A113D4F30"
+					type: "item"
+					item: "rats:raw_rat"
+				}
+				{
+					id: "3E896C70D104A502"
+					type: "item"
+					item: "betteranimalsplus:turkey_leg_raw"
+				}
+				{
+					id: "5E0136FFD2F16F4D"
+					type: "item"
+					item: "betteranimalsplus:venisonraw"
+				}
+				{
+					id: "02B7F3A2E9DE3EDD"
+					type: "item"
+					item: "betteranimalsplus:pheasantraw"
+				}
+				{
+					id: "605A419E6E5FD0BB"
+					type: "item"
+					item: "outer_end:stalker_meat"
+				}
+				{
+					id: "6D17DDCAA10DFA51"
+					type: "item"
+					item: "alexsmobs:kangaroo_meat"
+				}
+				{
+					id: "225119A539E59DC2"
+					type: "item"
+					item: "iceandfire:lightning_dragon_flesh"
+				}
+				{
+					id: "614FA45F6EFCB6A2"
+					type: "item"
+					item: "iceandfire:ice_dragon_flesh"
+				}
+				{
+					id: "72226B7EE992D904"
+					type: "item"
+					item: "iceandfire:fire_dragon_flesh"
+				}
+				{
+					id: "0C0B37E520F4023B"
+					type: "item"
+					item: "quark:frog_leg"
+				}
+			]
+			rewards: [{
+				id: "59446D7903DEB491"
+				type: "item"
+				item: {
+					id: "alexsmobs:frontier_cap"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Woodcutting Mastery"
+			icon: "minecraft:oak_log"
+			x: 7.5d
+			y: -2.5d
+			shape: "rsquare"
+			id: "2308DBA939EAF7D7"
+			tasks: [
+				{
+					id: "234FA1AB732D80C1"
+					type: "item"
+					item: "minecraft:oak_log"
+				}
+				{
+					id: "57DEE6C6D38B5E72"
+					type: "item"
+					item: "minecraft:spruce_log"
+				}
+				{
+					id: "701CE8191E9EE592"
+					type: "item"
+					item: "minecraft:birch_log"
+				}
+				{
+					id: "4C7691148EB34E27"
+					type: "item"
+					item: "minecraft:jungle_log"
+				}
+				{
+					id: "456BD86289BB4637"
+					type: "item"
+					item: "minecraft:acacia_log"
+				}
+				{
+					id: "57E60096FA663E33"
+					type: "item"
+					item: "minecraft:dark_oak_log"
+				}
+				{
+					id: "1A4915B29AB09FA3"
+					type: "item"
+					item: "upgrade_aquatic:driftwood_log"
+				}
+				{
+					id: "42945E9413DCD17E"
+					type: "item"
+					item: "upgrade_aquatic:river_log"
+				}
+				{
+					id: "3ADDAD69B1994B2F"
+					type: "item"
+					item: "biomesoplenty:fir_log"
+				}
+				{
+					id: "7D9B3DFF568EA699"
+					type: "item"
+					item: "biomesoplenty:redwood_log"
+				}
+				{
+					id: "5190C46800A6088E"
+					type: "item"
+					item: "biomesoplenty:cherry_log"
+				}
+				{
+					id: "14B1267ED2E1244A"
+					type: "item"
+					item: "biomesoplenty:mahogany_log"
+				}
+				{
+					id: "2F635A27BAFDB707"
+					type: "item"
+					item: "biomesoplenty:jacaranda_log"
+				}
+				{
+					id: "5F5FA0DB9527CFF0"
+					type: "item"
+					item: "biomesoplenty:palm_log"
+				}
+				{
+					id: "37BD2E9601958069"
+					type: "item"
+					item: "biomesoplenty:willow_log"
+				}
+				{
+					id: "667B182040D9979F"
+					type: "item"
+					item: "biomesoplenty:dead_log"
+				}
+				{
+					id: "7E64B8C430AE7C7C"
+					type: "item"
+					item: "biomesoplenty:magic_log"
+				}
+				{
+					id: "6C069BC07089AAF1"
+					type: "item"
+					item: "biomesoplenty:umbran_log"
+				}
+				{
+					id: "7A33E1945EBDE72B"
+					type: "item"
+					item: "biomesoplenty:hellbark_log"
+				}
+				{
+					id: "307CEA652B1F3DE0"
+					type: "item"
+					item: "betterendforge:mossy_glowshroom_log"
+				}
+				{
+					id: "31066B17BD5CA2A5"
+					type: "item"
+					item: "betterendforge:lacugrove_log"
+				}
+				{
+					id: "197688F6FEE3C4CD"
+					type: "item"
+					item: "betterendforge:end_lotus_log"
+				}
+				{
+					id: "5BD9AFBB9B4C39FD"
+					type: "item"
+					item: "betterendforge:pythadendron_log"
+				}
+				{
+					id: "4898CBD2E6F542C4"
+					type: "item"
+					item: "betterendforge:dragon_tree_log"
+				}
+				{
+					id: "0766972BF5A8B782"
+					type: "item"
+					item: "betterendforge:tenanea_log"
+				}
+				{
+					id: "2FD7A628ECE902E2"
+					type: "item"
+					item: "betterendforge:helix_tree_log"
+				}
+				{
+					id: "4153E03410FB17B7"
+					type: "item"
+					item: "betterendforge:umbrella_tree_log"
+				}
+				{
+					id: "59142A27C265A3C8"
+					type: "item"
+					item: "betterendforge:jellyshroom_log"
+				}
+				{
+					id: "78AA76937BF89B71"
+					type: "item"
+					item: "pamhc2trees:pamcinnamon"
+				}
+				{
+					id: "4A39DEBADF338D6E"
+					type: "item"
+					item: "pamhc2trees:pampaperbark"
+				}
+				{
+					id: "5B2E32BEA3657BB6"
+					type: "item"
+					item: "pamhc2trees:pammaple"
+				}
+				{
+					id: "0DFF1D8E40CF9331"
+					type: "item"
+					item: "iceandfire:dreadwood_log"
+				}
+				{
+					id: "0D969797F1CA6982"
+					type: "item"
+					item: "tconstruct:greenheart_log"
+				}
+				{
+					id: "30DEF151AA60182B"
+					type: "item"
+					item: "tconstruct:skyroot_log"
+				}
+			]
+			rewards: [{
+				id: "37B976C3DF2301FC"
+				type: "item"
+				item: {
+					id: "rats:top_hat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Smithing Mastery"
+			icon: "create:copper_ingot"
+			x: 5.0d
+			y: -4.5d
+			shape: "rsquare"
+			id: "30A01652C064813F"
+			tasks: [
+				{
+					id: "2A94F69B9C773EFE"
+					type: "item"
+					item: "minecraft:iron_ingot"
+				}
+				{
+					id: "0009DAD3204085FE"
+					type: "item"
+					item: "minecraft:gold_ingot"
+				}
+				{
+					id: "50A0B3EFCC7A6AD1"
+					type: "item"
+					item: "minecraft:netherite_ingot"
+				}
+				{
+					id: "34744370F070C004"
+					type: "item"
+					item: "eidolon:lead_ingot"
+				}
+				{
+					id: "72498B1311F885AD"
+					type: "item"
+					item: "create:copper_ingot"
+				}
+				{
+					id: "2BFE378AAD2641B2"
+					type: "item"
+					item: "create:zinc_ingot"
+				}
+				{
+					id: "05D895C952CD9550"
+					type: "item"
+					item: "create:brass_ingot"
+				}
+				{
+					id: "114C1463A865C253"
+					type: "item"
+					item: "bno:aluminum_ingot"
+				}
+				{
+					id: "7A8AAC70F1362524"
+					type: "item"
+					item: "iceandfire:silver_ingot"
+				}
+				{
+					id: "21D4A1F3991FA693"
+					type: "item"
+					item: "tconstruct:cobalt_ingot"
+				}
+				{
+					id: "748D1461D34CEA75"
+					type: "item"
+					item: "immersiveengineering:ingot_steel"
+				}
+				{
+					id: "5D19684C8D30B0D9"
+					type: "item"
+					item: "immersiveengineering:ingot_electrum"
+				}
+				{
+					id: "7372A90467642AF4"
+					type: "item"
+					item: "immersiveengineering:ingot_nickel"
+				}
+				{
+					id: "7DB263238C5E6CC4"
+					type: "item"
+					item: "tconstruct:manyullyn_ingot"
+				}
+			]
+			rewards: [{
+				id: "3C05756D593FA564"
+				type: "item"
+				item: "create:goggles"
+			}]
+		}
+		{
+			title: "Mining Mastery"
+			icon: {
+				id: "minecraft:diamond_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 4.5d
+			y: -3.5d
+			shape: "rsquare"
+			id: "36C035DB512B457D"
+			tasks: [
+				{
+					id: "76BC973D835750D4"
+					type: "item"
+					item: "minecraft:iron_ore"
+				}
+				{
+					id: "56189592F84B73AC"
+					type: "item"
+					item: "minecraft:gold_ore"
+				}
+				{
+					id: "52A58131F703DC57"
+					type: "item"
+					item: "create:zinc_ore"
+				}
+				{
+					id: "10308CB0506DA9BD"
+					type: "item"
+					item: "create:copper_ore"
+				}
+				{
+					id: "169079A0FC2A78DF"
+					type: "item"
+					item: "immersiveengineering:ore_copper"
+				}
+				{
+					id: "460AECD635CC104E"
+					type: "item"
+					item: "immersiveengineering:ore_aluminum"
+				}
+				{
+					id: "7359B5CADF84B7DE"
+					type: "item"
+					item: "immersiveengineering:ore_lead"
+				}
+				{
+					id: "5B601893005BA3B3"
+					type: "item"
+					item: "immersiveengineering:ore_silver"
+				}
+				{
+					id: "321A6D86A6A582F5"
+					type: "item"
+					item: "immersiveengineering:ore_nickel"
+				}
+				{
+					id: "45DF6043F101D3FF"
+					type: "item"
+					item: "immersiveengineering:ore_uranium"
+				}
+				{
+					id: "142893E0D8862D09"
+					type: "item"
+					item: "betterendforge:thallasium_ore"
+				}
+				{
+					id: "2D8CDA2733BADA49"
+					type: "item"
+					item: "betterendforge:ender_ore"
+				}
+				{
+					id: "26CBF7763722BD24"
+					type: "item"
+					item: "betterendforge:amber_ore"
+				}
+				{
+					id: "26692D486FC69CD5"
+					type: "item"
+					item: "minecraft:quartz"
+				}
+				{
+					id: "3F224B154FFA1B6F"
+					type: "item"
+					item: "minecraft:coal"
+				}
+				{
+					id: "307EF85C26C21453"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+				{
+					id: "7B05198425BB4C91"
+					type: "item"
+					item: "minecraft:redstone"
+				}
+			]
+			rewards: [{
+				id: "3A782F8A33F0AC97"
+				type: "item"
+				item: {
+					id: "mining_helmet:mining_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Mastery Completionist"
+			icon: "alexsmobs:mimicream"
+			x: 6.0d
+			y: -3.0d
+			shape: "hexagon"
+			dependencies: [
+				"314E7F2BADC6B033"
+				"7F65ECB400D05B86"
+				"36C035DB512B457D"
+				"30A01652C064813F"
+				"2308DBA939EAF7D7"
+				"484A03D42BE2F969"
+				"58CB87E9D5AB5357"
+				"71C3124B0B56C753"
+			]
+			size: 2.0d
+			id: "4A7B4C28A5E0D714"
+			rewards: [
+				{
+					id: "4C1C7FF202DD9CA4"
+					type: "command"
+					team_reward: false
+					auto: "enabled"
+					command: "/say @p has completed all skill masteries!"
+					player_command: false
+				}
+				{
+					id: "4FE85AE664DFCAB5"
+					type: "item"
+					auto: "disabled"
+					item: "tconstruct:creative_upgrade"
+					count: 5
+				}
+				{
+					id: "6F1AF2313355857C"
+					type: "item"
+					team_reward: false
+					auto: "disabled"
+					item: "tconstruct:creative_ability"
+					count: 5
+					only_one: true
+				}
+			]
+		}
+		{
+			title: "Farming Mastery"
+			icon: "minecraft:wheat"
+			x: 7.0d
+			y: -1.5d
+			shape: "rsquare"
+			id: "484A03D42BE2F969"
+			tasks: [
+				{
+					id: "5615D6AA55227ABB"
+					type: "item"
+					item: "minecraft:wheat"
+				}
+				{
+					id: "552DAC60044C680D"
+					type: "item"
+					item: "minecraft:beetroot"
+				}
+				{
+					id: "394231BD5F368735"
+					type: "item"
+					item: "minecraft:carrot"
+				}
+				{
+					id: "4840513072FF2379"
+					type: "item"
+					item: "pamhc2crops:cornitem"
+				}
+				{
+					id: "75DEF4F2A0935E19"
+					type: "item"
+					item: "minecraft:potato"
+				}
+				{
+					id: "662FA4D167FDBA6A"
+					type: "item"
+					item: "pamhc2crops:sweetpotatoitem"
+				}
+				{
+					id: "584DC495D4ABD8A2"
+					type: "item"
+					item: "pamhc2crops:garlicitem"
+				}
+				{
+					id: "5BCFC57A83054D63"
+					type: "item"
+					item: "pamhc2crops:broccoliitem"
+				}
+				{
+					id: "5CEAB362A15D418E"
+					type: "item"
+					item: "pamhc2crops:bellpepperitem"
+				}
+				{
+					id: "661A3C1B2306C14F"
+					type: "item"
+					item: "pamhc2crops:chilipepperitem"
+				}
+				{
+					id: "50763A638F584317"
+					type: "item"
+					item: "pamhc2crops:zucchiniitem"
+				}
+				{
+					id: "0AC2BA372D51C252"
+					type: "item"
+					item: "pamhc2crops:cucumberitem"
+				}
+				{
+					id: "036EF729C763A423"
+					type: "item"
+					item: "pamhc2crops:leekitem"
+				}
+				{
+					id: "354D7642FFF4B9A8"
+					type: "item"
+					item: "pamhc2crops:onionitem"
+				}
+				{
+					id: "252404D277FAEFBB"
+					type: "item"
+					item: "pamhc2crops:lettuceitem"
+				}
+				{
+					id: "6CBECA6808193FFB"
+					type: "item"
+					item: "minecraft:sweet_berries"
+				}
+				{
+					id: "79C49C085AE90A36"
+					type: "item"
+					item: "pamhc2crops:strawberryitem"
+				}
+				{
+					id: "0D2DC9CABD13E3A1"
+					type: "item"
+					item: "pamhc2crops:soybeanitem"
+				}
+				{
+					id: "339AE980C8C3781D"
+					type: "item"
+					item: "pamhc2crops:cottonitem"
+				}
+				{
+					id: "574E501CC9C0A251"
+					type: "item"
+					item: "pamhc2crops:tomatoitem"
+				}
+				{
+					id: "2FDDB073655C999F"
+					type: "item"
+					item: "pamhc2crops:cabbageitem"
+				}
+				{
+					id: "7AEC92393EDB89A7"
+					type: "item"
+					item: "minecraft:red_mushroom"
+				}
+				{
+					id: "2478BEC8CA6F742B"
+					type: "item"
+					item: "minecraft:brown_mushroom"
+				}
+				{
+					id: "6E3BEA526207225E"
+					type: "item"
+					item: "pamhc2crops:whitemushroomitem"
+				}
+				{
+					id: "24654F2CE56E6EF1"
+					type: "item"
+					item: "pamhc2crops:turnipitem"
+				}
+				{
+					id: "65096FBF91D76232"
+					type: "item"
+					item: "pamhc2crops:radishitem"
+				}
+				{
+					id: "3B4480E0423D984C"
+					type: "item"
+					item: "pamhc2crops:eggplantitem"
+				}
+				{
+					id: "2AE65A3D47634074"
+					type: "item"
+					item: "minecraft:cocoa_beans"
+				}
+				{
+					id: "0AA58A51E18762E7"
+					type: "item"
+					item: "minecraft:apple"
+				}
+				{
+					id: "13B4467564DA535B"
+					type: "item"
+					item: "pamhc2trees:orangeitem"
+				}
+				{
+					id: "36D6A3BABBFC48CA"
+					type: "item"
+					item: "pamhc2trees:lemonitem"
+				}
+				{
+					id: "500493F137177476"
+					type: "item"
+					item: "pamhc2trees:pearitem"
+				}
+			]
+			rewards: [{
+				id: "43AF4D14B029FE0D"
+				type: "item"
+				item: {
+					id: "rats:farmer_hat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: -7.5d
+			subtitle: "Visit the End by finding the Stronghold."
+			id: "14A6B92431B44FA7"
+			tasks: [{
+				id: "4625AF222EDD80A5"
+				type: "dimension"
+				icon: "minecraft:end_stone"
+				dimension: "minecraft:the_end"
+			}]
+		}
+		{
+			title: "Dimensional Mastery"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "biomesoplenty:textures/item/bop_icon.png"
+				}
+			}
+			x: 6.0d
+			y: -7.0d
+			shape: "gear"
+			dependencies: [
+				"14A6B92431B44FA7"
+				"33D1D4F01772D3C1"
+				"295FE4A82AD64149"
+				"35AAF1CAEC06E3AC"
+				"03DBBAF9556960D2"
+				"103F4529A3CE8512"
+			]
+			size: 2.0d
+			id: "58CB87E9D5AB5357"
+		}
+		{
+			title: "Overworld Biomes"
+			icon: "quark:lavender_blossom_sapling"
+			x: 6.5d
+			y: -8.5d
+			shape: "hexagon"
+			dependencies: ["33D1D4F01772D3C1"]
+			id: "103F4529A3CE8512"
+			tasks: [
+				{
+					id: "6844BE8AB6973417"
+					type: "biome"
+					biome: "minecraft:plains"
+				}
+				{
+					id: "37D66D16A59E37E1"
+					type: "biome"
+					biome: "minecraft:badlands"
+				}
+				{
+					id: "2A75E26CFEAE67FE"
+					type: "biome"
+					icon: "minecraft:snow_block"
+					biome: "biomesoplenty:alps"
+				}
+				{
+					id: "6D902D0F1997CECB"
+					type: "biome"
+					icon: "biomesoplenty:lavender"
+					biome: "biomesoplenty:lavender_field"
+				}
+			]
+		}
+		{
+			title: "End Biomes"
+			icon: "betterendforge:eternal_crystal"
+			x: 7.5d
+			y: -6.5d
+			shape: "hexagon"
+			subtitle: "Explore all the biomes of the End."
+			dependencies: ["14A6B92431B44FA7"]
+			id: "35AAF1CAEC06E3AC"
+			tasks: [
+				{
+					id: "24B455AC1E16FA80"
+					type: "biome"
+					icon: "minecraft:end_stone"
+					biome: "minecraft:the_end"
+				}
+				{
+					id: "25F6BF57157C22D7"
+					type: "biome"
+					icon: "betterendforge:end_moss"
+					biome: "betterendforge:glowing_grasslands"
+				}
+				{
+					id: "11BCA1FE6A5D85AA"
+					type: "biome"
+					icon: "minecraft:end_stone"
+					biome: "minecraft:small_end_islands"
+				}
+				{
+					id: "7FEFF0CBF4959414"
+					type: "biome"
+					icon: "betterendforge:end_lily_leaf"
+					biome: "betterendforge:megalake_grove"
+				}
+				{
+					id: "290E026668C77102"
+					type: "biome"
+					icon: "betterendforge:mossy_glowshroom_sapling"
+					biome: "betterendforge:foggy_mushroomland"
+				}
+				{
+					id: "0358879B03BCD6F6"
+					type: "biome"
+					icon: {
+						id: "minecraft:elytra"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					biome: "minecraft:end_barrens"
+				}
+				{
+					id: "097F6B1423206C35"
+					type: "biome"
+					icon: "betterendforge:eternal_crystal"
+					biome: "betterendforge:crystal_mountains"
+				}
+				{
+					id: "515E21E2D5C0FB05"
+					type: "biome"
+					icon: "betterendforge:amber_gem"
+					biome: "betterendforge:amber_land"
+				}
+				{
+					id: "0FC4ABDACD05E481"
+					type: "biome"
+					icon: "betterendforge:endstone_dust"
+					biome: "betterendforge:dust_wastelands"
+				}
+				{
+					id: "76C4CF023E584044"
+					type: "biome"
+					icon: "betterendforge:small_jellyshroom"
+					biome: "betterendforge:umbrella_jungle"
+				}
+				{
+					id: "55E9D19FA24DD51A"
+					type: "biome"
+					icon: "minecraft:chorus_flower"
+					biome: "minecraft:end_highlands"
+				}
+				{
+					id: "56191B842CACEFBF"
+					type: "biome"
+					icon: "betterendforge:crystalline_sulphur"
+					biome: "betterendforge:sulphur_springs"
+				}
+				{
+					id: "08697CD967E2E509"
+					type: "biome"
+					icon: "alexsmobs:acacia_blossom"
+					biome: "betterendforge:blossoming_spires"
+				}
+				{
+					id: "25CD5D84DA339D95"
+					type: "biome"
+					icon: "outer_end:azure_berries"
+					biome: "outer_end:azure_forest"
+				}
+				{
+					id: "1D2ED7F0B330152C"
+					type: "biome"
+					icon: "betterendforge:emerald_ice"
+					biome: "betterendforge:ice_starfield"
+				}
+				{
+					id: "5445143F6B11F156"
+					type: "biome"
+					icon: "endergetic:glowing_poise_stem"
+					biome: "endergetic:poise_forest"
+				}
+				{
+					id: "06467D4A0D8100E1"
+					type: "biome"
+					icon: "betterendforge:shadow_grass"
+					biome: "betterendforge:shadow_forest"
+				}
+			]
+		}
+		{
+			title: "Nether Biomes"
+			icon: "minecraft:crimson_fungus"
+			x: 4.5d
+			y: -6.5d
+			shape: "hexagon"
+			dependencies: ["295FE4A82AD64149"]
+			id: "03DBBAF9556960D2"
+			tasks: [{
+				id: "23CEEE477CD4F084"
+				type: "biome"
+				biome: "minecraft:plains"
+			}]
+		}
+		{
+			title: "Slayer Mastery"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "iceandfire:textures/thaumcraft/dragon.png"
+				}
+			}
+			x: 6.0d
+			y: 1.0d
+			dependencies: [
+				"3B5C3B160F0FCCA4"
+				"4C7B5DC6564AC34B"
+				"1E377F50FE1F2D7D"
+			]
+			size: 2.0d
+			optional: true
+			id: "71C3124B0B56C753"
+			rewards: [{
+				id: "55C4886D5B4962EF"
+				type: "item"
+				item: "artifacts:power_glove"
+			}]
+		}
+		{
+			title: "Dragon Slayer"
+			icon: "iceandfire:fire_dragon_heart"
+			x: 5.0d
+			y: 2.5d
+			id: "3B5C3B160F0FCCA4"
+			tasks: [
+				{
+					id: "747C5EEA223792D8"
+					type: "kill"
+					entity: "iceandfire:lightning_dragon"
+					value: 16L
+				}
+				{
+					id: "41AD733B883B9BFC"
+					type: "kill"
+					entity: "iceandfire:fire_dragon"
+					value: 16L
+				}
+				{
+					id: "72FA954946349132"
+					type: "kill"
+					entity: "iceandfire:ice_dragon"
+					value: 16L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 2.5d
+			id: "4C7B5DC6564AC34B"
+			tasks: [{
+				id: "0537B1F8EF3AF739"
+				type: "kill"
+				icon: "minecraft:dragon_head"
+				entity: "minecraft:ender_dragon"
+				value: 1L
+			}]
+		}
+		{
+			title: "First Aid"
+			icon: "firstaid:bandage"
+			x: 9.5d
+			y: -3.5d
+			shape: "rsquare"
+			id: "75B9AC3E3E0BA59D"
+			tasks: [
+				{
+					id: "1A89A3D634DF1107"
+					type: "item"
+					item: "firstaid:bandage"
+					count: 16L
+				}
+				{
+					id: "44274A81CE82B882"
+					type: "item"
+					item: "firstaid:plaster"
+					count: 16L
+				}
+				{
+					id: "4ECAC98AFA6CFF8A"
+					type: "item"
+					item: "firstaid:morphine"
+					count: 16L
+				}
+				{
+					id: "079B40F71CD97330"
+					type: "item"
+					item: "bhc:red_heart"
+					count: 16L
+				}
+				{
+					id: "6B1679FF18D64AAF"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:healing"
+						}
+					}
+					count: 16L
+				}
+			]
+		}
+	]
+}

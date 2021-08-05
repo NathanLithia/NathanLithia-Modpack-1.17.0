@@ -1,0 +1,89 @@
+{
+	id: "54A9A9BA4D04154D"
+	group: "7E9DB49B33181B47"
+	order_index: 2
+	filename: "drinking"
+	title: "Purified Water"
+	icon: "toughasnails:purified_water_bottle"
+	default_quest_shape: ""
+	quests: [
+		{
+			x: -0.5d
+			y: -0.5d
+			id: "04BFBFF942C7C693"
+			tasks: [{
+				id: "5FBD799D06A8DBA7"
+				type: "item"
+				item: "toughasnails:empty_canteen"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -0.5d
+			dependencies: ["04BFBFF942C7C693"]
+			id: "5A8542530BE2E58F"
+			tasks: [{
+				id: "3BCFA83A1D0369EE"
+				type: "item"
+				item: {
+					id: "toughasnails:water_canteen"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -0.5d
+			dependencies: [
+				"2EB4F86764B75359"
+				"5A8542530BE2E58F"
+			]
+			id: "1CC0745314CCAF23"
+			tasks: [{
+				id: "10AEF8C1FCE46CFF"
+				type: "item"
+				item: "toughasnails:water_purifier"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -0.5d
+			dependencies: ["1CC0745314CCAF23"]
+			id: "5996E39D4CF88E94"
+			tasks: [{
+				id: "48EA4E98B85F4FD1"
+				type: "item"
+				item: {
+					id: "toughasnails:purified_water_canteen"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.5d
+			id: "2EB4F86764B75359"
+			tasks: [{
+				id: "5EE447E2BBB74A41"
+				type: "item"
+				item: "minecraft:charcoal"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.5d
+			id: "51E72AF9EB361536"
+			tasks: [{
+				id: "093825DECF80149A"
+				type: "item"
+				item: "toughasnails:rain_collector"
+			}]
+		}
+	]
+}

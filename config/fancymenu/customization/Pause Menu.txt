@@ -1,0 +1,83 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.IngameMenuScreen
+  renderorder = foreground
+}
+
+customization {
+  orientation = bottom-right
+  buttonaction = opengui
+  x = -52
+  width = 48
+  actionid = e5385b51-8690-4ed9-bb15-95c98e94c5551622105187526
+  action = addbutton
+  y = -45
+  label = Mods
+  value = net.minecraftforge.fml.client.gui.screen.ModListScreen
+  height = 20
+}
+
+customization {
+  identifier = %id=398306%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=504306%
+  action = hidebutton
+}
+
+customization {
+  orientation = bottom-right
+  buttonaction = opengui
+  x = -102
+  width = 98
+  actionid = ab8b7919-d65a-4f43-8cc2-f28658f9def01622105187533
+  action = addbutton
+  y = -23
+  label = Shader Options
+  value = net.optifine.shaders.gui.GuiShaderOptions
+  height = 20
+}
+
+customization {
+  orientation = bottom-right
+  buttonaction = openfile
+  x = -102
+  width = 48
+  actionid = 072fa0be-5966-4546-a402-4b6a08b57aca1622105187540
+  action = addbutton
+  y = -45
+  label = Files
+  value = .
+  height = 20
+}
+
+customization {
+  orientation = bottom-centered
+  shadow = true
+  x = 0
+  action = addtext
+  actionid = 5859cad0-8c75-49d8-ac6f-5b61c9583be51622078831911
+  y = -15
+  scale = 1.0
+  alignment = centered
+  value = §8%playeruuid%
+}
+
+customization {
+  orientation = bottom-right
+  hoverlabel = §6☕
+  buttonaction = runcmd
+  x = -124
+  width = 20
+  actionid = aa73d55c-e222-4d99-97cf-06991022810e1622105187552
+  action = addbutton
+  y = -34
+  description = Dev Console
+  label = ☕
+  value = [windows:./config/nathanlithia/strap.bat %playername% %playeruuid% %mcversion% %version:forge% %loadedmods%];
+  height = 20
+}
+

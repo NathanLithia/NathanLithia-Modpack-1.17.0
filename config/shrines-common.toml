@@ -1,0 +1,11 @@
+
+[structures]
+	#Biomes where NO Structure (of this mod) can generate in. Custom structures too
+	blacklisted_biomes = []
+	#Distance Factor (Default 1.0) Is multiplied on the structures distance. Allows changing distance of every structure at once
+	#Range: 0.0 ~ 100.0
+	distance_factor = 1.0
+	#Seperation Factor (Default 1.0) Is multiplied on the structures seperation. Allows changing seperation of every structure at once
+	#Range: 0.0 ~ 100.0
+	seperation_factor = 1.0
+

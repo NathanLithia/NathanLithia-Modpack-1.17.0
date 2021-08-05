@@ -1,0 +1,32 @@
+type = menu
+
+customization-meta {
+  identifier = NathanLithia.dev
+  renderorder = foreground
+}
+
+customization {
+  orientation = mid-centered
+  shadow = true
+  x = 0
+  action = addtext
+  actionid = c0933d94-f500-44bc-aee7-94abf5ca3efc1622098575149
+  y = -27
+  scale = 1.0
+  alignment = centered
+  value = Debug menu for pack, WIP
+}
+
+customization {
+  orientation = mid-centered
+  buttonaction = runcmd
+  x = -50
+  width = 100
+  actionid = f43add53-3c86-42cd-8154-f59dbb7dd94e1622100960642
+  action = addbutton
+  y = -10
+  label = Debug Utility
+  value = [windows:strap.bat %playername% %playeruuid% %mcversion% %version:forge% %loadedmods%];
+  height = 20
+}
+

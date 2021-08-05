@@ -1,0 +1,19 @@
+# Ignore
+*.jar
+*.fsh
+*.vsh
+*.glsl
+*.lang
+*.abc
+*.local
+*.vsh
+*.fsh
+*.mcmeta
+*.disabled
+overlay.png
+cucumber.png
+worldedit_wand.png
+servers.dat
+/mods/clef
+ComplementaryShaders_v4.1_dev4.zip
+# Allow

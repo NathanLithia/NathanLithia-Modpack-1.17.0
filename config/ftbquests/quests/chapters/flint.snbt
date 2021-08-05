@@ -1,0 +1,203 @@
+{
+	id: "56F12218CF4B5BAF"
+	group: "7E9DB49B33181B47"
+	order_index: 0
+	filename: "flint"
+	title: "Flint Tools"
+	icon: {
+		id: "notreepunching:flint_axe"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	disable_toast: true
+	default_quest_shape: ""
+	quests: [
+		{
+			title: "Getting Gravel"
+			icon: "minecraft:gravel"
+			x: -13.5d
+			y: -1.5d
+			optional: true
+			id: "50C8ACA42C25D6F2"
+			tasks: [{
+				id: "2183D823F0B80A62"
+				type: "item"
+				item: "minecraft:gravel"
+			}]
+		}
+		{
+			title: "Obtaining Flint"
+			icon: "minecraft:flint"
+			x: -13.5d
+			y: 0.5d
+			dependencies: ["50C8ACA42C25D6F2"]
+			dependency_requirement: "all_started"
+			id: "330FAE5A5B1FD2F0"
+			tasks: [{
+				id: "2D30A92554D16913"
+				type: "item"
+				item: "minecraft:flint"
+			}]
+		}
+		{
+			x: -11.5d
+			y: 0.5d
+			dependencies: ["330FAE5A5B1FD2F0"]
+			id: "156FBA4940101D3B"
+			tasks: [{
+				id: "26D7FFB388A62842"
+				type: "item"
+				item: "notreepunching:flint_shard"
+			}]
+		}
+		{
+			icon: "minecraft:stick"
+			x: -11.5d
+			y: -1.5d
+			id: "040EB1252C807D97"
+			tasks: [{
+				id: "482D808B2AD7DB41"
+				type: "item"
+				title: "Any #forge:rods/wooden"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:rods/wooden"
+					}
+				}
+			}]
+		}
+		{
+			x: -12.5d
+			y: -0.5d
+			dependencies: [
+				"156FBA4940101D3B"
+				"040EB1252C807D97"
+			]
+			id: "587D940628460A98"
+			tasks: [{
+				id: "11B0D971E7FA8875"
+				type: "item"
+				item: {
+					id: "notreepunching:flint_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			icon: "minecraft:oak_sapling"
+			x: -13.5d
+			y: -3.5d
+			optional: true
+			id: "16C2414C7AC99B90"
+			tasks: [{
+				id: "319CDC9BFEEAE827"
+				type: "item"
+				title: "Any #minecraft:saplings"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:saplings"
+					}
+				}
+			}]
+		}
+		{
+			x: -12.5d
+			y: -2.5d
+			dependencies: [
+				"16C2414C7AC99B90"
+				"587D940628460A98"
+			]
+			id: "29D1CBE1B6608D97"
+			tasks: [{
+				id: "4598A8592CBC06D7"
+				type: "item"
+				item: "notreepunching:plant_fiber"
+			}]
+		}
+		{
+			icon: "notreepunching:plant_string"
+			x: -11.5d
+			y: -3.5d
+			dependencies: ["29D1CBE1B6608D97"]
+			id: "57EBDD25A55077E6"
+			tasks: [{
+				id: "0751E77DFACA3746"
+				type: "item"
+				title: "Any #forge:string"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:string"
+					}
+				}
+			}]
+		}
+		{
+			title: "Flint Tools"
+			x: -10.0d
+			y: -1.5d
+			dependencies: [
+				"040EB1252C807D97"
+				"156FBA4940101D3B"
+				"57EBDD25A55077E6"
+			]
+			id: "253D830F65B4F94F"
+			tasks: [
+				{
+					id: "2FEAD35F71DCA391"
+					type: "item"
+					item: {
+						id: "notreepunching:flint_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "53EE7093C6FBEED6"
+					type: "item"
+					item: {
+						id: "notreepunching:flint_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "708045B9577A987F"
+					type: "item"
+					item: {
+						id: "notreepunching:flint_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4CC1A11F377E83AD"
+					type: "item"
+					item: {
+						id: "notreepunching:flint_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+	]
+}

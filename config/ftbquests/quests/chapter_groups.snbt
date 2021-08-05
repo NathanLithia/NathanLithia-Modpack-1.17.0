@@ -1,0 +1,6 @@
+{
+	chapter_groups: [
+		{ id: "7E9DB49B33181B47", title: "The Basics" }
+		{ id: "4EAC66EFAA1BE78B", title: "Challenges" }
+	]
+}

@@ -1,0 +1,3 @@
+identifier = NathanLithia.dev
+title = Debug GUI
+allowesc = true

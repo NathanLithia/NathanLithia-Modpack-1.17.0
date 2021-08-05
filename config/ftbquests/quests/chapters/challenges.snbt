@@ -1,0 +1,16 @@
+{
+	id: "75E11507A75E52B8"
+	group: "4EAC66EFAA1BE78B"
+	order_index: 1
+	filename: "challenges"
+	title: "Medium"
+	icon: {
+		id: "minecraft:iron_sword"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	quests: [ ]
+}

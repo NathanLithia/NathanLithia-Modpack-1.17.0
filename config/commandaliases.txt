@@ -1,0 +1,17 @@
+warps | listwarps
+homes | listhomes
+admin | ftbchunks admin bypass_protection
+gma | gamemode adventure
+gmc | gamemode creative
+gms | gamemode survival
+exp | experience
+deaths | deathhistory @s
+setspawn | setworldspawn
+hand | kubejs hand
+ranks | ftbranks list_all_ranks
+day | time set day
+night | time set night
+pl | list
+enderchest | cofh enderchest
+repair | cofh repair
+burn | cofh ignite

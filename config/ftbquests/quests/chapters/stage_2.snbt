@@ -1,0 +1,116 @@
+{
+	id: "44EB975499A5F040"
+	group: "7E9DB49B33181B47"
+	order_index: 1
+	filename: "stage_2"
+	title: "Workbench"
+	icon: "minecraft:crafting_table"
+	default_quest_shape: ""
+	quests: [
+		{
+			title: "Getting Wood"
+			icon: "minecraft:oak_log"
+			x: -4.5d
+			y: -1.5d
+			subtitle: "Cut down a tree to obtain some logs."
+			description: ["Use an Axe to cut yourself some logs"]
+			dependencies: ["56F12218CF4B5BAF"]
+			optional: true
+			id: "4BDD2091E87870D5"
+			tasks: [{
+				id: "32FC8929CCC50D93"
+				type: "item"
+				title: "Any #minecraft:logs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+			}]
+		}
+		{
+			title: "Planks"
+			x: -2.5d
+			y: -1.5d
+			subtitle: "Use a \"Flint Knife\" to turn your logs into planks."
+			dependencies: [
+				"4BDD2091E87870D5"
+				"56F12218CF4B5BAF"
+				"72511B66380D068B"
+			]
+			optional: true
+			id: "40F2D1A967EEBA27"
+			tasks: [{
+				id: "1F8FE7B6707970F7"
+				type: "item"
+				title: "Any #minecraft:planks"
+				icon: "minecraft:oak_planks"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:planks"
+					}
+				}
+				count: 4L
+			}]
+		}
+		{
+			icon: "minecraft:crafting_table"
+			x: -0.5d
+			y: -1.5d
+			dependencies: ["40F2D1A967EEBA27"]
+			id: "61E1E2EFA3685BD3"
+			tasks: [{
+				id: "595A44BF86421945"
+				type: "item"
+				title: "Any #forge:workbenches"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:workbenches"
+					}
+				}
+			}]
+		}
+		{
+			icon: "minecraft:chest"
+			x: -1.5d
+			y: -2.5d
+			dependencies: ["61E1E2EFA3685BD3"]
+			id: "6C3AA0694E4733D3"
+			tasks: [{
+				id: "486C8C849ABCD93A"
+				type: "item"
+				title: "Any #forge:chests"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:chests"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: -2.5d
+			dependencies: ["4BDD2091E87870D5"]
+			id: "72511B66380D068B"
+			tasks: [{
+				id: "7EB5989B0DCD4DA3"
+				type: "item"
+				item: {
+					id: "notreepunching:flint_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
+}

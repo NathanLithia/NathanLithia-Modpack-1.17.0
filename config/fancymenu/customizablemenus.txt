@@ -1,0 +1,11 @@
+type = customizablemenus
+
+net.optifine.gui.GuiPerformanceSettingsOF {
+}
+
+net.minecraft.client.gui.screen.IngameMenuScreen {
+}
+
+net.minecraft.client.gui.screen.MainMenuScreen {
+}
+
