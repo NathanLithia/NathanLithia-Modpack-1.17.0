@@ -2525,6 +2525,151 @@
       "installedTargets": null
     },
     {
+      "addonID": 32274,
+      "gameInstanceID": "afa3613d-f755-43ad-b67c-b0e86c82f895",
+      "installedFile": {
+        "id": 3410052,
+        "displayName": "journeymap-1.17.1-5.7.3rc1",
+        "fileName": "journeymap-1.17.1-5.7.3rc1.jar",
+        "fileDate": "2021-08-02T20:22:24.683Z",
+        "fileLength": 7107853,
+        "releaseType": 2,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3410/52/journeymap-1.17.1-5.7.3rc1.jar",
+        "isAlternate": false,
+        "alternateFileId": 3410053,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 226005,
+            "type": 4,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 3568963839,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "journeymap",
+            "fingerprint": 2823914373,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "modinfo",
+            "fingerprint": 3027681462,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 2108001502,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "journeymap.mixins.json",
+            "fingerprint": 3259271730,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "journeymap.png",
+            "fingerprint": 3357985534,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "license.txt",
+            "fingerprint": 1239007717,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 2930129283,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "potion-effects-shift.js",
+            "fingerprint": 550316676,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "render-event-transformer.js",
+            "fingerprint": 2784044465,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "info",
+            "fingerprint": 2875474330,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "NOTICE.txt",
+            "fingerprint": 3411389661,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "about.html",
+            "fingerprint": 1421502970,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "org",
+            "fingerprint": 1462564042,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "jetty-dir.css",
+            "fingerprint": 4183154058,
+            "type": 0,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 247025909,
+        "gameVersion": [
+          "1.17.1",
+          "Forge"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "journeymap-1.17.1-5.7.3rc1.jar"
+      },
+      "dateInstalled": "2021-08-05T02:43:12.573407Z",
+      "dateUpdated": "2021-08-05T02:43:12.5924236Z",
+      "dateLastUpdateAttempted": "2021-08-05T02:43:12.5924236Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
+    },
+    {
       "addonID": 444729,
       "gameInstanceID": "afa3613d-f755-43ad-b67c-b0e86c82f895",
       "installedFile": {
