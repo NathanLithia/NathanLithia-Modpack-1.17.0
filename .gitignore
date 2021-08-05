@@ -15,5 +15,11 @@ cucumber.png
 worldedit_wand.png
 servers.dat
 /mods/clef
+/saves/
+/logs/
 ComplementaryShaders_v4.1_dev4.zip
+usernamecache.json
+usercache.json
+*.dat_old
+realms_persistence.json
 # Allow

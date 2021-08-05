@@ -1,0 +1,18 @@
+
+[display]
+	#If set to TRUE, the labels on the compass will always be visible, if FALSE (default), only the closest to the center of the compass will show the name.
+	alwaysShowLabels = false
+	#If set to FALSE, the closest waypoint to the center of the compass will not show the label, and sneak will be required to display it.
+	alwaysShowFocusedLabel = true
+	#If set to FALSE, sneaking will only show the closest waypoint to the center of the compass.
+	showAllLabelsOnSneak = true
+	#If set to FALSE, support for sewing recipes will not be enabled regardless of the mod's presence.
+	animateLabels = true
+	#Choose when the compass is visible.
+	# - HAS_COMPASS: Only display HUD if a compass is in the inventory.
+	# - HOLDING_COMPASS: Only display HUD if a compass is in the hand.
+	#Allowed Values: HOLDING_COMPASS, HAS_COMPASS, ALWAYS
+	displayWhen = "ALWAYS"
+	#If set to FALSE, Xaero Minimap waypoints won't be displayed in the compass.
+	enableXaeroMinimapIntegration = true
+

@@ -2,7 +2,8 @@
 #General settings
 [general]
 	#How often should the server send tps updates to clients
-	#Range: 100 ~ 600
+	#Default is 100 ticks
+	#Range: 1 ~ 6000
 	refreshTicks = 100
 	#Only ops can see tps information, this is to stop tps hunters
 	opOnlyMode = false

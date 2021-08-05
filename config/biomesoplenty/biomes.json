@@ -24,6 +24,9 @@
     "biomesoplenty:dryland": {
       "weight": 3
     },
+    "biomesoplenty:erupting_inferno": {
+      "weight": 5
+    },
     "biomesoplenty:fungal_jungle": {
       "weight": 1
     },
@@ -105,6 +108,9 @@
   },
   "technical_biome_toggles": {
     "biomesoplenty:alps_foothills": {
+      "enabled": true
+    },
+    "biomesoplenty:dunes": {
       "enabled": true
     },
     "biomesoplenty:gravel_beach": {
@@ -305,17 +311,11 @@
     "minecraft:forest": {
       "weight": 10
     },
-    "minecraft:frozen_ocean": {
-      "weight": 3
-    },
     "minecraft:giant_tree_taiga": {
       "weight": 5
     },
     "minecraft:jungle": {
       "weight": 10
-    },
-    "minecraft:lukewarm_ocean": {
-      "weight": 3
     },
     "minecraft:mountains": {
       "weight": 10
