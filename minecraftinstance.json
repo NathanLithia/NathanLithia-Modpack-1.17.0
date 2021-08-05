@@ -888,14 +888,14 @@
       "addonID": 348521,
       "gameInstanceID": "afa3613d-f755-43ad-b67c-b0e86c82f895",
       "installedFile": {
-        "id": 3409422,
-        "displayName": "[Forge 1.17.1] v5.0.37",
-        "fileName": "cloth-config-5.0.37-forge.jar",
-        "fileDate": "2021-08-02T10:44:06.823Z",
-        "fileLength": 991853,
+        "id": 3413207,
+        "displayName": "[Forge 1.17.1] v5.0.38",
+        "fileName": "cloth-config-5.0.38-forge.jar",
+        "fileDate": "2021-08-04T19:38:01.79Z",
+        "fileLength": 991850,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3409/422/cloth-config-5.0.37-forge.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3413/207/cloth-config-5.0.38-forge.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -903,7 +903,7 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1284404259,
+            "fingerprint": 3654645735,
             "type": 0,
             "invalidFingerprint": false
           },
@@ -938,13 +938,13 @@
             "invalidFingerprint": false
           },
           {
-            "foldername": "architectury_inject_clothconfig_common_d175141356d64828b0a8ec946123d282_93c85a259d25a0932622a649d6c1ae719789f9fa885bb918ddde220867053a21clothconfig5037devjar",
-            "fingerprint": 4081800647,
+            "foldername": "architectury_inject_clothconfig_common_19abc253fa0445f587205c0af0f25b28_b634a4080613081478ba1eced0afb23bb680afc2fee1b563f0a054f80afa1c61clothconfig5038devjar",
+            "fingerprint": 2297062911,
             "type": 0,
             "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 1412793590,
+        "packageFingerprint": 2495669025,
         "gameVersion": [
           "1.17.1",
           "1.17",
@@ -959,12 +959,12 @@
         "gameVersionDateReleased": "2019-08-01T00:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "cloth-config-5.0.37-forge.jar"
+        "FileNameOnDisk": "cloth-config-5.0.38-forge.jar"
       },
       "dateInstalled": "2021-08-05T00:26:52.0206741Z",
-      "dateUpdated": "2021-08-05T00:26:52.023677Z",
-      "dateLastUpdateAttempted": "2021-08-05T00:26:52.023677Z",
-      "status": 3,
+      "dateUpdated": "2021-08-05T00:45:32.0363914Z",
+      "dateLastUpdateAttempted": "2021-08-05T00:45:32.0363914Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
